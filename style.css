@@ -1,0 +1,10 @@
+body { font-family: Arial, sans-serif; background: #f8f8ff; color: #232323; padding: 2em; transition: background 0.2s, color 0.2s;}
+body.dark { background: #22272f; color: #eee; }
+.header { display: flex; justify-content: space-between; align-items: center; }
+.cities input, .cities button { font-size: 1em; margin: 0.2em 0.3em 0.2em 0; padding: 0.4em; }
+.city-row { background: #fff; border-radius: 6px; margin: 0.3em 0; padding: 0.5em 1em; display: flex; align-items: center;}
+body.dark .city-row { background: #292f38; }
+.city-row button { margin-left: auto;}
+.converter { background: #fff; border-radius: 6px; padding: 1em; box-shadow: 0 1px 6px #0002;}
+body.dark .converter { background: #2a2f38; }
+select, input[type=time] { margin: 0 0.3em; }

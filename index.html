@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Time Zone Buddy</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="header">
+    <h2>🕑 Time Zone Buddy</h2>
+    <button onclick="toggleTheme()">🌙/☀️</button>
+  </div>
+  <div class="cities">
+    <input id="cityInput" placeholder="Add city (e.g. Rome)">
+    <button onclick="addCity()">Add</button>
+    <div id="cityList"></div>
+  </div>
+  <div class="converter" style="margin-top:2em">
+    <h3>Convert Time</h3>
+    <select id="fromCity"></select>
+    <input id="fromTime" type="time" value="12:00">
+    <span>→</span>
+    <select id="toCity"></select>
+    <span id="toTime"></span>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>
